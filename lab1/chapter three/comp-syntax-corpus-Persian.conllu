@@ -132,19 +132,21 @@
 
 # A witness told police that the victim had attacked the suspect in April .
 یک شاهد به پلیس گفت که مقتول در ماه آوریل به مظنون حمله کرده است
-1	A	_	DET	_	_	2	det	_	_
-2	witness	_	NOUN	_	_	3	nsubj	_	_
-3	told	_	VERB	_	_	0	root	_	_
-4	police	_	NOUN	_	_	3	iobj	_	_
-5	that	_	SCONJ	_	_	9	mark	_	_
-6	the	_	DET	_	_	7	det	_	_
-7	victim	_	NOUN	_	_	9	nsubj	_	_
-8	had	_	AUX	_	_	9	aux	_	_
-9	attacked	_	VERB	_	_	3	ccomp	_	_
-10	the	_	DET	_	_	11	det	_	_
-11	suspect	_	NOUN	_	_	9	obj	_	_
-12	in	_	ADP	_	_	13	case	_	_
-13	April	_	PROPN	_	_	9	obl	_	_
+1	یک	_	DET	_	_	2	det	_	_
+2	شاهد	_	NOUN	_	_	3	nsubj	_	_
+3	به	_	VERB	_	_	0	root	_	_
+4	پلیس	_	NOUN	_	_	3	iobj	_	_
+5	گفت	_	SCONJ	_	_	9	mark	_	_
+6	که	_	DET	_	_	7	det	_	_
+7	مقتول	_	NOUN	_	_	9	nsubj	_	_
+8	 در	_	AUX	_	_	9	aux	_	_
+9	 ماه	_	VERB	_	_	3	ccomp	_	_
+10	آوریل	_	DET	_	_	11	det	_	_
+11	به	_	NOUN	_	_	9	obj	_	_
+12	مظنون	_	ADP	_	_	13	case	_	_
+13	حمله	_	PROPN	_	_	9	obl	_	_
+13	کرده	_	PROPN	_	_	9	obl	_	_
+13	است	_	PROPN	_	_	9	obl	_	_
 14	.	_	PUNCT	_	_	3	punct	_	_
 
 
@@ -166,19 +168,20 @@
 
 # It 's most obvious when a celebrity 's name is initially quite rare .
 این بسیار واضح است که نام یک فرد مشهور در ابتدا بسیار نادر باشد
-1	It	_	PRON	_	_	4	nsubj	_	_
-2	's	_	AUX	_	_	4	cop	_	_
-3	most	_	ADV	_	_	4	advmod	_	_
-4	obvious	_	ADJ	_	_	0	root	_	_
-5	when	_	SSUBJ	_	_	13	advmod	_	_
-6	a	_	DET	_	_	7	det	_	_
-7	celebrity	_	NOUN	_	_	9	nmod	_	_
-8	's	_	PART	_	_	7	case	_	_
-9	name	_	NOUN	_	_	13	nsubj	_	_
-10	is	_	AUX	_	_	13	cop	_	_
-11	initially	_	ADV	_	_	13	advmod	_	_
-12	quite	_	ADV	_	_	13	advmod	_	_
-13	rare	_	ADJ	_	_	4	advcl	_	_
+1	این 	_	PRON	_	_	4	nsubj	_	_
+3	بسیار	_	ADV	_	_	4	advmod	_	_
+4	واضح 	_	ADJ	_	_	0	root	_	_
+2	است	_	AUX	_	_	4	cop	_	_
+5	که	_	SSUBJ	_	_	13	advmod	_	_
+9	نام	_	NOUN	_	_	13	nsubj	_	
+8	یک	_	PART	_	_	7	case	_	_
+9	فرد	_	NOUN	_	_	13	nsubj	_	
+7	مشهور	_	NOUN	_	_	9	nmod	_	_
+8	در	_	PART	_	_	7	case	_	_
+11	 ابتدا	_	ADV	_	_	13	advmod	_	_
+12	بسیار	_	ADV	_	_	13	advmod	_	_
+13	 نادر	_	ADJ	_	_	4	advcl	_	_
+10	باشد	_	AUX	_	_	13	cop	_	_
 14	.	_	PUNCT	_	_	4	punct	_	_
 
 
@@ -200,19 +203,23 @@
 
 # This has not stopped investors flocking to put their money in the funds .
 این مانع از جمع شدن سرمایه گذاران برای قرار دادن پول خود در صندوق ها نشده است 
-1	This	_	PRON	_	_	4	nsubj	_	_
-2	has	_	AUX	_	_	4	aux	_	_
-3	not	_	PART	_	_	4	advmod	_	_
-4	stopped	_	VERB	_	_	0	root	_	_
-5	investors	_	NOUN	_	_	4	obj	_	_
-6	flocking	_	VERB	_	_	4	xcomp	_	_
+1	این	_	PRON	_	_	4	nsubj	_	_
+
+
+4	مانع	_	VERB	_	_	0	root	_	_
+6	جمع شدن	_	VERB	_	_	4	xcomp	_	
+5	سرمایه گذاران	_	NOUN	_	_	4	obj	_	_
+2	برای 	_	AUX	_	_	4	aux	_	_
 7	to	_	PART	_	_	8	mark	_	_
-8	put	_	VERB	_	_	6	advcl	_	_
-9	their	_	PRON	_	_	10	nmod:poss	_	_
-10	money	_	NOUN	_	_	8	obj	_	_
-11	in	_	ADP	_	_	13	case	_	_
-12	the	_	DET	_	_	13	det	_	_
-13	funds	_	NOUN	_	_	8	obl	_	_
+8	 قرار دادن 	_	VERB	_	_	6	advcl	_	_
+
+10	پول	_	NOUN	_	_	8	obj	_	_
+9	خود 	_	PRON	_	_	10	nmod:poss	_ 	_
+11	در	_	ADP	_	_	13	case	_	_
+
+13	صندوق ها	_	NOUN	_	_	8	obl	_	_
+3	نشده	_	PART	_	_	4	advmod	_	_
+3	است	_	PART	_	_	4	advmod	_	_
 14	.	_	PUNCT	_	_	4	punct	_	_
 
 
@@ -293,8 +300,53 @@
 20	gondola	_	NOUN	_	_	14	obl	_	_
 21	.	_	PUNCT	_	_	4	punct	_	_
 
+
+
+
+
+
+
+
+1	The	_	DET	_	_	3	det	_	_
+2	feasibility	_	NOUN	_	_	3	compound	_	_
+3	study	_	NOUN	_	_	4	nsubj	_	_
+4	estimates	_	VERB	_	_	0	root	_	_
+5	that	_	SCONJ	_	_	8	mark	_	_
+6	it	_	PRON	_	_	8	nsubj	_	_
+7	would	_	AUX	_	_	8	aux	_	_
+8	take	_	VERB	_	_	4	ccomp	_	_
+9	passengers	_	NOUN	_	_	8	iobj	_	_
+10	about	_	ADV	_	_	11	advmod	_	_
+11	four	_	NUM	_	_	12	nummod	_	_
+12	minutes	_	NOUN	_	_	8	obj	_	_
+13	to	_	PART	_	_	14	mark	_	_
+14	cross	_	VERB	_	_	8	csubj	_	_
+15	the	_	DET	_	_	16	det	_	_
+16	Potomac	_	PROPN	_	_	17	compound	_	_
+17	River	_	PROPN	_	_	14	nsubj	_	_
+18	on	_	ADP	_	_	20	case	_	_
+19	the	_	DET	_	_	20	det	_	_
+20	gondola	_	NOUN	_	_	14	obl	_	_
+21	.	_	PUNCT	_	_	4	punct	_	_
+
 # he collected cards and traded them with the other boys .
 او کارتها را جمع کرد و آنها را با پسران دیگر معامله کرد 
+1	he	_	PRON	_	_	2	nsubj	_	_
+2	collected	_	VERB	_	_	0	root	_	_
+3	cards	_	NOUN	_	_	2	obj	_	_
+4	and	_	CCONJ	_	_	5	cc	_	_
+5	traded	_	VERB	_	_	2	conj	_	_
+6	them	_	PRON	_	_	5	obj	_	_
+7	with	_	ADP	_	_	10	case	_	_
+8	the	_	DET	_	_	10	det	_	_
+9	other	_	ADJ	_	_	10	amod	_	_
+10	boys	_	NOUN	_	_	5	obl	_	_
+11	.	_	PUNCT	_	_	2	punct	_	_
+
+
+
+
+
 1	he	_	PRON	_	_	2	nsubj	_	_
 2	collected	_	VERB	_	_	0	root	_	_
 3	cards	_	NOUN	_	_	2	obj	_	_
@@ -321,6 +373,21 @@
 10	prison	_	NOUN	_	_	3	nmod	_	_
 11	.	_	PUNCT	_	_	3	punct	_	_
 
+
+
+
+
+1	this	_	DET	_	_	2	det	_	_
+2	crime	_	NOUN	_	_	3	nsubj	_	_
+3	carries	_	VERB	_	_	0	root	_	_
+4	a	_	DET	_	_	5	det	_	_
+5	penalty	_	NOUN	_	_	3	obj	_	_
+6	of	_	ADP	_	_	8	case	_	_
+7	five	_	NUM	_	_	8	nummod	_	_
+8	years	_	NOUN	_	_	3	nmod	_	_
+9	in	_	ADP	_	_	10	case	_	_
+10	prison	_	NOUN	_	_	3	nmod	_	_
+11	.	_	PUNCT	_	_	3	punct	_	_
 # the news was carried to every village in the province .
 این خبر به هر روستای استان منتقل شد 
 1	the	_	DET	_	_	2	det	_	_
@@ -335,8 +402,45 @@
 10	province	_	NOUN	_	_	7	nmod	_	_
 11	.	_	PUNCT	_	_	4	punct	_	_
 
+
+
+
+
+
+
+1	the	_	DET	_	_	2	det	_	_
+2	news	_	NOUN	_	_	4	nsubj	_	_
+3	was	_	AUX	_	_	4	aux	_	_
+4	carried	_	VERB	_	_	0	root	_	_
+5	to	_	PART	_	_	7	case	_	_
+6	every	_	DET	_	_	7	det	_	_
+7	village	_	NOUN	_	_	4	obl	_	_
+8	in	_	ADP	_	_	10	case	_	_
+9	the	_	DET	_	_	10	der	_	_
+10	province	_	NOUN	_	_	7	nmod	_	_
+11	.	_	PUNCT	_	_	4	punct	_	_
+
+
 # I carry these thoughts in the back of my head .
 من این افکار را پشت سرم حمل می کنم 
+1	I	_	PRON	_	_	2	nsubj	_	_
+2	carry	_	VERB	_	_	0	root	_	_
+3	these	_	DET	_	_	4	det	_	_
+4	thoughts	_	NOUN	_	_	2	obj	_	_
+5	in	_	ADP	_	_	7	case	_	_
+6	the	_	DET	_	_	7	det	_	_
+7	back	_	NOUN	_	_	2	obl	_	_
+8	of	_	ADP	_	_	10	case	_	_
+9	my	_	PRON	_	_	10	nmod:poss	_	_
+10	head	_	NOUN	_	_	7	nmod	_	_
+11	.	_	PUNCT	_	_	2	punct	_	_
+
+
+
+
+
+
+
 1	I	_	PRON	_	_	2	nsubj	_	_
 2	carry	_	VERB	_	_	0	root	_	_
 3	these	_	DET	_	_	4	det	_	_
@@ -363,6 +467,21 @@
 10	eternal	_	ADJ	_	_	9	amod	_	_
 11	.	_	PUNCT	_	_	5	punct	_	_
 
+
+
+1	Adam	_	PROPN	_	_	5	nsubj	_	_
+2	would	_	AUX	_	_	5	aux	_	_
+3	have	_	AUX	_	_	5	aux	_	_
+4	been	_	AUX	_	_	5	aux	_	_
+5	carried	_	VERB	_	_	0	root	_	_
+6	over	_	ADP	_	_	5	advmod	_	_
+7	into	_	ADP	_	_	9	case	_	_
+8	the	_	DET	_	_	9	det	_	_
+9	life	_	NOUN	_	_	5	obl	_	_
+10	eternal	_	ADJ	_	_	9	amod	_	_
+11	.	_	PUNCT	_	_	5	punct	_	_
+
+
 # the casings had rotted away and had to be replaced .
  روکش ها پوسیده شده و باید جایگزین می شدند 
 1	the	_	DET	_	_	2	det	_	_
@@ -376,6 +495,22 @@
 9	be	_	AUX	_	_	10	aux	_	_
 10	replaced	_	VERB	_	_	4	conj	_	_
 11	.	_	PUNCT	_	_	4	punct	_	_
+
+
+
+1	the	_	DET	_	_	2	det	_	_
+2	casings	_	NOUN	_	_	4	nsubj	_	_
+3	had	_	AUX	_	_	4	aux	_	_
+4	rotted	_	VERB	_	_	0	root	_	_
+5	away	_	ADV	_	_	5	advmod	_	_
+6	and	_	CCONJ	_	_	10	cc	_	_
+7	had	_	AUX	_	_	10	aux	_	_
+8	to	_	PART	_	_	10	mark	_	_
+9	be	_	AUX	_	_	10	aux	_	_
+10	replaced	_	VERB	_	_	4	conj	_	_
+11	.	_	PUNCT	_	_	4	punct	_	_
+
+
 
 # she was incensed that this chit of a girl should dare to make a fool of her in front of the class .
 او عصبانی شده بود که  یک دختر بچه  جرات کند در مقابل افراد کلاس او را تحقیرکند
@@ -402,6 +537,35 @@
 21	the	_	DET	_	_	22	det	_	_
 22	class	_	NOUN	_	_	19	nmod	_	_
 23	.	_	PUNCT	_	_	3	punct	_	_
+
+
+
+
+1	she	_	PRON	_	_	3	nsubj	_	_
+2	was	_	AUX	_	_	3	cop	_	_
+3	incensed	_	ADJ	_	_	0	root	_	_
+4	that	_	SCONJ	_	_	11	mark	_	_
+5	this	_	DET	_	_	6	det	_	_
+6	chit	_	NOUN	_	_	11	nsubj	_	_
+7	of	_	ADP	_	_	9	case	_	_
+8	a	_	DET	_	_	9	det	_	_
+9	girl	_	NOUN	_	_	6	nmod	_	_
+10	should	_	AUX	_	_	11	aux	_	_
+11	dare	_	VERB	_	_	3	ccomp	_	_
+12	to	_	PART	_	_	13	mark	_	_
+13	make	_	VERB	_	_	11	xcomp	_	_
+14	a	_	DET	_	_	15	det	_	_
+15	fool	_	NOUN	_	_	13	obj	_	_
+16	of	_	ADP	_	_	17	case	_	_
+17	her	_	PRON	_	_	15	nmod	_	_
+18	in	_	ADP	_	_	19	case	_	_
+19	front	_	NOUN	_	_	13	obl	_	_
+20	of	_	ADP	_	_	22	case	_	_
+21	the	_	DET	_	_	22	det	_	_
+22	class	_	NOUN	_	_	19	nmod	_	_
+23	.	_	PUNCT	_	_	3	punct	_	_
+
+
 
 # the landslide he had in the electoral college obscured the narrowness of a victory based on just 43% of the popular vote .
 ریزشی که او در انتخابات کالج داشت احتمال پیروزی کمش را بر اساس فقظ 43% از رای عمومی نامطمین کرد
