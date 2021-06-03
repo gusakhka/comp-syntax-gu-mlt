@@ -430,6 +430,35 @@
 23	vote	_	NOUN	_	_	19	nmod	_	_
 24	.	_	PUNCT	_	_	4	punct	_	_
 
+
+
+
+1	the	_	DET	_	_	2	det	_	_
+2	landslide	_	NOUN	_	_	4	obj	_	_
+3	he	_	PRON	_	_	4	subj	_	_
+4	had	_	VERB	_	_	0	root	_	_
+5	in	_	ADP	_	_	8	case	_	_
+6	the	_	DET	_	_	8	det	_	_
+7	electoral	_	NOUN	_	_	8	compound	_	_
+8	college	_	NOUN	_	_	4	obl	_	_
+9	obscured	_	VERB	_	_	4	ccomp	_	_
+10	the	_	DET	_	_	11	det	_	_
+11	narrowness	_	NOUN	_	_	9	obj	_	_
+12	of	_	ADP	_	_	14	case	_	_
+13	a	_	DET	_	_	14	det	_	_
+14	victory	_	NOUN	_	_	11	nmod	_	_
+15	based	_	VERB	_	_	14	acl	_	_
+16	on	_	ADP	_	_	19	case	_	_
+17	just	_	ADV	_	_	18	advmod	_	_
+18	43	_	NUM	_	_	19	nummod	_	_
+19	%	_	SYM	_	_	11	nmod	_	_
+20	of	_	ADP	_	_	23	case	_	_
+21	the	_	DET	_	_	23	det	_	_
+22	popular	_	ADJ	_	_	23	amod	_	_
+23	vote	_	NOUN	_	_	19	nmod	_	_
+24	.	_	PUNCT	_	_	4	punct	_	_
+
+
 # United States troops now carry atropine and autoinjectors in their first-aid kits to use in case of organophosphate nerve agent poisoning .
 سربازان ایالات متحده اکنون آتروپین و انژکتورهای خودکار را در جعبه کمکهای اولیه خود حمل می کنند تا در صورت مسمومیت با عامل عصب ارگانوفسفات استفاده کنند 
 1	United	_	PROPN	_	_	2	flat	_	_
@@ -455,6 +484,37 @@
 21	agent	_	NOUN	_	_	22	compound	_	_
 22	poisoning	_	NOUN	_	_	17	nmod	_	_
 23	.	_	PUNCT	_	_	5	punct	_	_
+
+
+
+
+
+1	United	_	PROPN	_	_	2	flat	_	_
+2	States	_	PROPN	_	_	2	compound	_	_
+3	troops	_	NOUN	_	_	5	nsubj	_	_
+4	now	_	ADV	_	_	5	advmod	_	_
+5	carry	_	VERB	_	_	0	root	_	_
+6	atropine	_	NOUN	_	_	5	obj	_	_
+7	and	_	CCONJ	_	_	8	cc	_	_
+8	autoinjectors	_	NOUN	_	_	6	conj	_	_
+9	in	_	ADP	_	_	13	case	_	_
+10	their	_	PRON	_	_	13	nmod:poss	_	_
+11	first	_	NOUN	_	_	12	compound	_	_
+12	-aid	_	NOUN	_	_	13	compound	_	_
+13	kits	_	NOUN	_	_	5	obl	_	_
+14	to	_	PART	_	_	15	mark	_	_
+15	use	_	VERB	_	_	5	advcl	_	_
+16	in	_	ADP	_	_	17	case	_	_
+17	case	_	NOUN	_	_	15	obl	_	_
+18	of	_	ADP	_	_	22	case	_	_
+19	organophosphate	_	ADJ	_	_	22	amod	_	_
+20	nerve	_	NOUN	_	_	21	compound	_	_
+21	agent	_	NOUN	_	_	22	compound	_	_
+22	poisoning	_	NOUN	_	_	17	nmod	_	_
+23	.	_	PUNCT	_	_	5	punct	_	_
+
+
+
 
 # he may accomplish by craft in the long run what he cannot do by force and violence in the short one .
 او ممکن است در طولانی مدت با کار دستی به کاری برسد که نمی تواند با زور و خشونت در کوتاه مدت انجام دهد 
@@ -482,6 +542,36 @@
 22	one	_	NOUN	_	_	14	obl	_	_
 23	.	_	PUNCT	_	_	3	punct	_	_
 
+
+
+
+
+1	he	_	PRON	_	_	3	nsubj	_	_
+2	may	_	AUX	_	_	3	aux	_	_
+3	accomplish	_	VERB	_	_	0	root	_	_
+4	by	_	ADP	_	_	5	case	_	_
+5	craft	_	NOUN	_	_	3	obl	_	_
+6	in	_	ADP	_	_	9	case	_	_
+7	the	_	DET	_	_	9	det	_	_
+8	long	_	ADJ	_	_	9	amod	_	_
+9	run	_	NOUN	_	_	3	obl	_	_
+10	what	_	PRON	_	_	14	obj	_	_
+11	he	_	PRON	_	_	14	nsubj	_	_
+12	can	_	AUX	_	_	14	aux	_	_
+13	not	_	PART	_	_	14	advmod	_	_
+14	do	_	VERB	_	_	3	ccomp	_	_
+15	by	_	ADP	_	_	16	case	_	_
+16	force	_	NOUN	_	_	14	obl	_	_
+17	and	_	CCONJ	_	_	18	cc	_	_
+18	violence	_	NOUN	_	_	16	conj	_	_
+19	in	_	ADP	_	_	22	case	_	_
+20	the	_	DET	_	_	22	det	_	_
+21	short	_	ADJ	_	_	22	amod	_	_
+22	one	_	NOUN	_	_	14	obl	_	_
+23	.	_	PUNCT	_	_	3	punct	_	_
+
+
+
 # it has been said that only a hierarchical society with a leisure class at the top can produce works of art .
 فته شده است که فقط یک جامعه سلسله مراتبی با یک کلاس اوقات فراغت در بالا می تواند آثار هنری تولید کند. 
 1	it	_	PRON	_	_	4	nsubj	_	_
@@ -507,8 +597,58 @@
 21	art	_	NOUN	_	_	19	nmod	_	_
 23	.	_	PUNCT	_	_	4	punct	_	_
 
+
+
+
+
+1	it	_	PRON	_	_	4	nsubj	_	_
+2	has	_	AUX	_	_	4	aux	_	_
+3	been	_	AUX	_	_	4	aux	_	_
+4	said	_	VERB	_	_	0	root	_	_
+5	that	_	SCONJ	_	_	18	mark	_	_
+6	only	_	ADV	_	_	9	advmod	_	_
+7	a	_	DET	_	_	8	det	_	_
+8	hierarchical	_	ADJ	_	_	9	amod	_	_
+9	society	_	NOUN	_	_	18	nsubj	_	_
+10	with	_	ADP	_	_	13	case	_	_
+11	a	_	DET	_	_	13	det	_	_
+12	leisure	_	NOUN	_	_	13	compound	_	_
+13	class	_	NOUN	_	_	9	nmod	_	_
+14	at	_	ADP	_	_	16	case	_	_
+15	the	_	DET	_	_	16	det	_	_
+16	top	_	NOUN	_	_	13	nmod	_	_
+17	can	_	AUX	_	_	18	aux	_	_
+18	produce	_	VERB	_	_	4	ccomp	_	_
+19	works	_	NOUN	_	_	18	obj	_	_
+20	of	_	ADP	_	_	21	case	_	_
+21	art	_	NOUN	_	_	19	nmod	_	_
+23	.	_	PUNCT	_	_	4	punct	_	_
+
+
 # his ingenuous explanation that he would not have burned the church if he had not thought the bishop was in it .
 توضیح نبوغ آمیز او مبنی بر اینکه اگر فکر نمی کرد اسقف در آن است ، او کلیسا را نمی سوزاند. 
+1	توضیح	_	PRON	_	_	3	nmod:poss	_	_
+2	 نبوغ آمیز	_	ADJ	_	_	3	amod	_	_
+3	او	_	NOUN	_	_	0	root	_	_
+4	مبنی	_	SCONJ	_	_	9	mark	_	_
+5	بر	_	PRON	_	_	9	nsubj	_	_
+6	اینکه	_	AUX	_	_	9	aux	_	_
+7	اگر	_	PART	_	_	9	advmod	_	_
+8	فکر	_	AUX	_	_	9	aux	_	_
+9	نمی کرد 	_	AUX	_	_	4	ccomp	_	_
+10	اسقف	_	DET	_	_	11	det	_	_
+11	در	_	NOUN	_	_	9	obj	_	_
+12	 آن 	_	SCONJ	_	_	16	mark	_	_
+13	است	_	PRON	_	_	16	nsubj	_	_
+14	،	_	AUX	_	_	16	aux	_	_
+15	او 	_	PART	_	_	16	advmod	_	_
+16	کلیسا	_	VERB	_	_	9	advcl	_	_
+17	را	_	DET	_	_	18	det	_	_
+18	نمی سوزاند
+	_	NOUN	_	_	19	nsubj	_	_
+19	.	_	PUNCT	_	_	3	punct	_	_
+
+
 1	his	_	PRON	_	_	3	nmod:poss	_	_
 2	ingenuous	_	ADJ	_	_	3	amod	_	_
 3	explanation	_	NOUN	_	_	0	root	_	_
@@ -531,4 +671,5 @@
 20	in	_	ADP	_	_	21	case	_	_
 21	it	_	PRON	_	_	16	ccomp	_	_
 22	.	_	PUNCT	_	_	3	punct	_	_
+
 
