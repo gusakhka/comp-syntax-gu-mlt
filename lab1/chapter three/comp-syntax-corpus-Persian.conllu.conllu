@@ -1,64 +1,73 @@
 
-# text = [EN] Colorless green ideas sleep furiously.
-1	colorless	_	ADJ	_	_	3	amod	_	_
-2	green	_	ADJ	_	_	3	amod	_	_
-3	ideas	_	NOUN	_	_	4	nsubj	_	_
-4	sleep	_	VERB	_	_	0	root	_	_
-5	furiously	_	ADV	_	_	4	advmod	_	_
-6	.	_	PUNCT	_	_	4	punct	_	_
 
-
-# text = [ES] Las ideas verdes incoloras duermen furiosamente.
-1	las	_	DET	_	_	2	det	_	_
-2	ideas	_	NOUN	_	_	5	nsubj	_	_
-3	verdes	_	ADJ	_	_	2	amod	_	_
-4	incoloras	_	ADJ	_	_	2	amod	_	_
-5	duermen	_	VERB	_	_	0	root	_	_
-6	furiosamente	_	ADV	_	_	5	advmod	_	_
-7	.	_	PUNCT	_	_	5	punct	_	_
-------------------------------------------------------------------------------
 # Who are they ?
-1	Who	_	PRON	_	_	0	root	_	_
-2	are	_	AUX	_	_	1	cop	_	_
-3	they	_	PRON	_	_	1	nsubj	_	_
-4	?	_	PUNCT	_	_	1	punct	_	_
+# آنها کی هستند ؟
+1	 آنها	_	PRON	_	_	2	nsubj	_	_
+2	کی	_	PRON	_	_	0	root	_	_
+3	هستند	_	AUX	_	_	2	cop	_	_
+4	?	_	PUNCT	_	_	2	punct	_	_
 
 # A small town with two minarets glides by .
-1	A	_	DET	_	_	3	det	_	_
-2	small	_	ADJ	_	_	3	amod	_	_
-3	town	_	NOUN	_	_	7	nsubj	_	_
-4	with	_	ADP	_	_	6	case	_	_
-5	two	_	NUM	_	_	6	nummod	_	_
-6	minarets	_	NOUN	_	_	3	nmod	_	_
-7	glides	_	VERB	_	_	0	root	_	_
-8	by	_	ADV	_	_	7	advmod	_	_
-9	.	_	PUNCT	_	_	7	punct	_	_
+#یک شهر کوچک با دو مناره می گذرد
+1	یک	_	NUM	_	_	2	nummod	_	_
+2	شهر	_	NOUN	_	_	7	nsubj	_	_
+3	کوچک	_	ADJ	_	_	2	amod	_	_
+4	با	_	ADP	_	_	6	case	_	_
+5	دو	_	NUM	_	_	6	nummod	_	_
+6	مناره	_	NOUN	_	_	2	nmod	_	_
+7	می گذرد	_	VERB	_	_	0	root	_	_
+8	.	_	PUNCT	_	_	7	punct	_	_
+
 
 # I was just a boy with muddy shoes .
-1	I	_	PRON	_	_	5	nsubj	_	_
-2	was	_	AUX	_	_	5	cop	_	_
-3	just	_	ADV	_	_	5	advmod	_	_
-4	a	_	DET	_	_	5	det	_	_
-5	boy	_	NOUN	_	_	0	root	_	_
-6	with	_	ADP	_	_	8	case	_	_
-7	muddy	_	ADJ	_	_	8	amod	_	_
-8	shoes	_	NOUN	_	_	5	nmod	_	_
-9	.	_	PUNCT	_	_	5	punct	_	_
+من فقط  یک پسربا کفشهای گل آلود بودم
+1	من	_	PRON	_	_	4	nsubj	_	_
+2	 فقط	_	ADV	_	_	4	advmod	_	_
+3	یک 	_	NUM	_	_	4	nummod	_	_
+4	 پسر	_	NOUN	_	_	0	root	_	_
+5	با 	_	ADP	_	_	6	case	_	_
+6	کفشهای	_	NOUN	_	_	4	case	_	_
+7	گل آلود	_	ADJ	_	_	6	amod	_	_
+8	بودم	_	AUX	_	_	4	cop	_	_
+9	.	_	PUNCT	_	_	4	punct	_	_
 
+#پلیس راهنمایی و رانندگی شنژن برای مجازاتهای غیرمتعارف پیشین انتخاب شده است
 # Shenzhen 's traffic police have opted for unconventional penalties before ..
-1	Shenzhen	_	PROPN	_	_	4	nmod:poss	_	_
-2	's	_	PART	_	_	1	case	_	_
-3	traffic	_	NOUN	_	_	4	compound	_	_
-4	police	_	NOUN	_	_	6	nsubj	_	_
-5	have	_	AUX	_	_	6	aux	_	_
-6	opted	_	VERB	_	_	0	root	_	_
-7	for	_	ADP	_	_	9	case	_	_
-8	unconventional	_	ADJ	_	_	9	amod	_	_
-9	penalties	_	NOUN	_	_	6	obl	_	_
-10	before	_	ADV	_	_	6	advmod	_	_
-11	..	_	PUNCT	_	_	6	punct	_	_
+1	پلیس 	_	PROPN	_	_	4	nsubj	_	_
+2	راهنمایی	_	NOUN	_	_	1	compound	_	_
+3	و 	_	CCONJ	_	_	4	cc	_	_
+4	رانندگی	_	NOUN	_	_	1	compound	_	_
+5	 شنژن 	_	PROPN	_	_	1	nmod	_	_
+6	برای	_	ADP	_	_	7	case	_	_
+7	مجازاتهای 	_	Noun	_	_	10	obl	_	_
+8	غیرمتعارف	_	ADJ	_	_	7	amod	_	_
+9	پیشین	_	ADJ	_	_	7	amod	_	_
+10	انتخاب 	_	NOUN	_	_	0	root	_	_
+11	شده 	_	AUX	_	_	10	COP	_	_
+12	است 	_	AUX	_	_	10	AUX	_	_
+13	.. 	_	PUNCT	_	_	10	punct	_	_
+
+
 
 # The study of volcanoes is called volcanology , sometimes spelled vulcanology .
+مطالعه آتشفشان ها آتشفشان شناسی نامیده می شود ، گاهی اوقات آتشفشان شناسی هجی می شود
+1	مطالعه	_	DET	_	_	2	nsubj	_	_
+2	آتشفشان ها	_	NOUN	_	_	6	nsubj	_	_
+3	آتشفشان	_	ADP	_	_	4	case	_	_
+4	شناسی 	_	NOUN	_	_	2	nmod	_	_
+5	نامیده 	_	AUX	_	_	6	aux	_	_
+6	 می شود 	_	VERB	_	_	0	root	_	_
+7	,	_	PUNCT	_	_	7	punct	_	_
+7	 گاهی	_	NOUN	_	_	6	xcomp	_	_
+8	اوقات 	_	PUNCT	_	_	7	punct	_	_
+9	 آتشفشان	_	ADV	_	_	10	advmod	_	_
+10	شناسی 	_	VERB	_	_	7	acl	_	_
+11	هجی 	_	NOUN	_	_	10	xcomp	_	_
+12	می شود	_	AUX	_	_	6	punct	_	_
+12	.	_	PUNCT	_	_	6	punct	_	_
+
+
+
 1	The	_	DET	_	_	2	det	_	_
 2	study	_	NOUN	_	_	6	nsubj	_	_
 3	of	_	ADP	_	_	4	case	_	_
@@ -73,21 +82,39 @@
 12	.	_	PUNCT	_	_	6	punct	_	_
 
 # It was conducted just off the Mexican coast from April to June .
-1	It	_	PRON	_	_	3	nsubj	_	_
-2	was	_	AUX	_	_	3	aux	_	_
-3	conducted	_	VERB	_	_	0	root	_	_
-4	just	_	ADV	_	_	8	advmod	_	_
-5	off	_	ADP	_	_	8	case	_	_
-6	the	_	DET	_	_	8	det	_	_
-7	Mexican	_	ADJ	_	_	8	amod	_	_
-8	coast	_	NOUN	_	_	3	obl	_	_
-9	from	_	ADP	_	_	10	case	_	_
-10	April	_	PROPN	_	_	3	obl	_	_
-11	to	_	ADP	_	_	12	case	_	_
-12	June	_	PROPN	_	_	10	nmod	_	_
-13	.	_	PUNCT	_	_	3	punct	_	_
+#این دقیقاً در سواحل مکزیک از آوریل تا ژوئن انجام شد
+1	این	_	DET	_	_	10	nsubj	_	_
+2	 دقیقاً	_	ADV	_	_	4	advmod	_	_
+3	 در 	_	ADP	_	_	4	case	_	_
+4	سواحل 	_	NOUN	_	_	10	obl	_	_
+5	 مکزیک	_	ADJ	_	_	4	amod	_	_
+6	از	_	ADP	_	_	4	case	_	_
+7	 آوریل	_	PROPN	_	_	10	obl	_	_
+8	تا 	_	ADP	_	_	9	case	_	_
+9	ژوئن	_	PROPN	_	_	7	nmod	_	_
+10	انجام	_	NOUN	_	_	0	root	_	_
+11	شد	_	AUX	_	_	11	COP	_	_
+12	.	_	PUNCT	_	_	10	PUNCT	_	_
 
+"لیو گفت :"صدای او به معنای واقعی کلمه به دور دنیا می چرخید. 
 # " Her voice literally went around the world , " Leive said .
+1	لیو 	_	PUNCT	_	_	5	punct	_	_
+2	 گفت 	_	PRON	_	_	3	nmod:poss	_	_
+3	:	_	NOUN	_	_	5	nsubj	_	_
+10	"	_	PUNCT	_	_	5	punct	_	_
+4	صدای	_	ADV	_	_	5	advmod	_	_
+5	او 	_	VERB	_	_	0	root	_	_
+6	به 	_	ADP	_	_	8	case	_	_
+7	معنای	_	DET	_	_	8	det	_	_
+8	واقعی	_	NOUN	_	_	5	obl	_	_
+9	 کلمه 	_	PUNCT	_	_	5	punct	_	_
+10	به 	_	PUNCT	_	_	5	punct	_	_
+11	دور	_	PROPN	_	_	12	nsubj	_	_
+12	 دنیا 	_	VERB	_	_	5	parataxis	_	_
+13	می چرخید	_	PUNCT	_	_	5	punct	_	_
+13	.	_	PUNCT	_	_	5	punct	_	_
+
+
 1	"	_	PUNCT	_	_	5	punct	_	_
 2	Her	_	PRON	_	_	3	nmod:poss	_	_
 3	voice	_	NOUN	_	_	5	nsubj	_	_
@@ -102,7 +129,9 @@
 12	said	_	VERB	_	_	5	parataxis	_	_
 13	.	_	PUNCT	_	_	5	punct	_	_
 
+
 # A witness told police that the victim had attacked the suspect in April .
+یک شاهد به پلیس گفت که مقتول در ماه آوریل به مظنون حمله کرده است
 1	A	_	DET	_	_	2	det	_	_
 2	witness	_	NOUN	_	_	3	nsubj	_	_
 3	told	_	VERB	_	_	0	root	_	_
@@ -118,7 +147,42 @@
 13	April	_	PROPN	_	_	9	obl	_	_
 14	.	_	PUNCT	_	_	3	punct	_	_
 
+
+1	A	_	DET	_	_	2	det	_	_
+2	witness	_	NOUN	_	_	3	nsubj	_	_
+3	told	_	VERB	_	_	0	root	_	_
+4	police	_	NOUN	_	_	3	iobj	_	_
+5	that	_	SCONJ	_	_	9	mark	_	_
+6	the	_	DET	_	_	7	det	_	_
+7	victim	_	NOUN	_	_	9	nsubj	_	_
+8	had	_	AUX	_	_	9	aux	_	_
+9	attacked	_	VERB	_	_	3	ccomp	_	_
+10	the	_	DET	_	_	11	det	_	_
+11	suspect	_	NOUN	_	_	9	obj	_	_
+12	in	_	ADP	_	_	13	case	_	_
+13	April	_	PROPN	_	_	9	obl	_	_
+14	.	_	PUNCT	_	_	3	punct	_	_
+
+
 # It 's most obvious when a celebrity 's name is initially quite rare .
+این بسیار واضح است که نام یک فرد مشهور در ابتدا بسیار نادر باشد
+1	It	_	PRON	_	_	4	nsubj	_	_
+2	's	_	AUX	_	_	4	cop	_	_
+3	most	_	ADV	_	_	4	advmod	_	_
+4	obvious	_	ADJ	_	_	0	root	_	_
+5	when	_	SSUBJ	_	_	13	advmod	_	_
+6	a	_	DET	_	_	7	det	_	_
+7	celebrity	_	NOUN	_	_	9	nmod	_	_
+8	's	_	PART	_	_	7	case	_	_
+9	name	_	NOUN	_	_	13	nsubj	_	_
+10	is	_	AUX	_	_	13	cop	_	_
+11	initially	_	ADV	_	_	13	advmod	_	_
+12	quite	_	ADV	_	_	13	advmod	_	_
+13	rare	_	ADJ	_	_	4	advcl	_	_
+14	.	_	PUNCT	_	_	4	punct	_	_
+
+
+
 1	It	_	PRON	_	_	4	nsubj	_	_
 2	's	_	AUX	_	_	4	cop	_	_
 3	most	_	ADV	_	_	4	advmod	_	_
@@ -135,6 +199,25 @@
 14	.	_	PUNCT	_	_	4	punct	_	_
 
 # This has not stopped investors flocking to put their money in the funds .
+این مانع از جمع شدن سرمایه گذاران برای قرار دادن پول خود در صندوق ها نشده است 
+1	This	_	PRON	_	_	4	nsubj	_	_
+2	has	_	AUX	_	_	4	aux	_	_
+3	not	_	PART	_	_	4	advmod	_	_
+4	stopped	_	VERB	_	_	0	root	_	_
+5	investors	_	NOUN	_	_	4	obj	_	_
+6	flocking	_	VERB	_	_	4	xcomp	_	_
+7	to	_	PART	_	_	8	mark	_	_
+8	put	_	VERB	_	_	6	advcl	_	_
+9	their	_	PRON	_	_	10	nmod:poss	_	_
+10	money	_	NOUN	_	_	8	obj	_	_
+11	in	_	ADP	_	_	13	case	_	_
+12	the	_	DET	_	_	13	det	_	_
+13	funds	_	NOUN	_	_	8	obl	_	_
+14	.	_	PUNCT	_	_	4	punct	_	_
+
+
+
+
 1	This	_	PRON	_	_	4	nsubj	_	_
 2	has	_	AUX	_	_	4	aux	_	_
 3	not	_	PART	_	_	4	advmod	_	_
@@ -151,6 +234,7 @@
 14	.	_	PUNCT	_	_	4	punct	_	_
 
 # This discordance between economic data and political rhetoric is familiar , or should be .
+این ناسازگاری بین داده های اقتصادی و سخنان سیاسی آشنا است ، یا باید وجود داشته باشد.
 1	This	_	DET	_	_	2	det	_	_
 2	discordance	_	NOUN	_	_	10	nsubj	_	_
 3	between	_	ADP	_	_	5	case	_	_
@@ -167,7 +251,26 @@
 14	be	_	AUX	_	_	10	conj	_	_
 15	.	_	PUNCT	_	_	10	punct	_	_
 
+
+1	This	_	DET	_	_	2	det	_	_
+2	discordance	_	NOUN	_	_	10	nsubj	_	_
+3	between	_	ADP	_	_	5	case	_	_
+4	economic	_	ADJ	_	_	5	amod	_	_
+5	data	_	NOUN	_	_	2	nmod	_	_
+6	and	_	CCONJ	_	_	8	cc	_	_
+7	political	_	ADJ	_	_	8	amod	_	_
+8	rhetoric	_	NOUN	_	_	5	conj	_	_
+9	is	_	AUX	_	_	10	cop	_	_
+10	familiar	_	ADJ	_	_	0	root	_	_
+11	,	_	PUNCT	_	_	14	punct	_	_
+12	or	_	CCONJ	_	_	14	cc	_	_
+13	should	_	AUX	_	_	14	aux	_	_
+14	be	_	AUX	_	_	10	conj	_	_
+15	.	_	PUNCT	_	_	10	punct	_	_
+
+
 # The feasibility study estimates that it would take passengers about four minutes to cross the Potomac River on the gondola .
+مطالعه امکان سنجی تخمین می زند که عبور از رودخانه پوتوماک روی تله کابین حدود چهار دقیقه طول می کشد. 
 1	The	_	DET	_	_	3	det	_	_
 2	feasibility	_	NOUN	_	_	3	compound	_	_
 3	study	_	NOUN	_	_	4	nsubj	_	_
@@ -191,6 +294,7 @@
 21	.	_	PUNCT	_	_	4	punct	_	_
 
 # he collected cards and traded them with the other boys .
+او کارتها را جمع کرد و آنها را با پسران دیگر معامله کرد 
 1	he	_	PRON	_	_	2	nsubj	_	_
 2	collected	_	VERB	_	_	0	root	_	_
 3	cards	_	NOUN	_	_	2	obj	_	_
@@ -204,6 +308,7 @@
 11	.	_	PUNCT	_	_	2	punct	_	_
 
 # this crime carries a penalty of five years in prison .
+این جنایت مجازات پنج سال زندان دارد. 
 1	this	_	DET	_	_	2	det	_	_
 2	crime	_	NOUN	_	_	3	nsubj	_	_
 3	carries	_	VERB	_	_	0	root	_	_
@@ -217,6 +322,7 @@
 11	.	_	PUNCT	_	_	3	punct	_	_
 
 # the news was carried to every village in the province .
+این خبر به هر روستای استان منتقل شد 
 1	the	_	DET	_	_	2	det	_	_
 2	news	_	NOUN	_	_	4	nsubj	_	_
 3	was	_	AUX	_	_	4	aux	_	_
@@ -230,6 +336,7 @@
 11	.	_	PUNCT	_	_	4	punct	_	_
 
 # I carry these thoughts in the back of my head .
+من این افکار را پشت سرم حمل می کنم 
 1	I	_	PRON	_	_	2	nsubj	_	_
 2	carry	_	VERB	_	_	0	root	_	_
 3	these	_	DET	_	_	4	det	_	_
@@ -243,6 +350,7 @@
 11	.	_	PUNCT	_	_	2	punct	_	_
 
 # Adam would have been carried over into the life eternal .
+آدم می توانست به زندگی ابدی منتقل شود 
 1	Adam	_	PROPN	_	_	5	nsubj	_	_
 2	would	_	AUX	_	_	5	aux	_	_
 3	have	_	AUX	_	_	5	aux	_	_
@@ -256,6 +364,7 @@
 11	.	_	PUNCT	_	_	5	punct	_	_
 
 # the casings had rotted away and had to be replaced .
+ روکش ها پوسیده شده و باید جایگزین می شدند 
 1	the	_	DET	_	_	2	det	_	_
 2	casings	_	NOUN	_	_	4	nsubj	_	_
 3	had	_	AUX	_	_	4	aux	_	_
@@ -269,6 +378,7 @@
 11	.	_	PUNCT	_	_	4	punct	_	_
 
 # she was incensed that this chit of a girl should dare to make a fool of her in front of the class .
+او عصبانی شده بود که  یک دختر بچه  جرات کند در مقابل افراد کلاس او را تحقیرکند
 1	she	_	PRON	_	_	3	nsubj	_	_
 2	was	_	AUX	_	_	3	cop	_	_
 3	incensed	_	ADJ	_	_	0	root	_	_
@@ -294,6 +404,7 @@
 23	.	_	PUNCT	_	_	3	punct	_	_
 
 # the landslide he had in the electoral college obscured the narrowness of a victory based on just 43% of the popular vote .
+ریزشی که او در انتخابات کالج داشت احتمال پیروزی کمش را بر اساس فقظ 43% از رای عمومی نامطمین کرد
 1	the	_	DET	_	_	2	det	_	_
 2	landslide	_	NOUN	_	_	4	obj	_	_
 3	he	_	PRON	_	_	4	subj	_	_
@@ -320,6 +431,7 @@
 24	.	_	PUNCT	_	_	4	punct	_	_
 
 # United States troops now carry atropine and autoinjectors in their first-aid kits to use in case of organophosphate nerve agent poisoning .
+سربازان ایالات متحده اکنون آتروپین و انژکتورهای خودکار را در جعبه کمکهای اولیه خود حمل می کنند تا در صورت مسمومیت با عامل عصب ارگانوفسفات استفاده کنند 
 1	United	_	PROPN	_	_	2	flat	_	_
 2	States	_	PROPN	_	_	2	compound	_	_
 3	troops	_	NOUN	_	_	5	nsubj	_	_
@@ -345,6 +457,7 @@
 23	.	_	PUNCT	_	_	5	punct	_	_
 
 # he may accomplish by craft in the long run what he cannot do by force and violence in the short one .
+او ممکن است در طولانی مدت با کار دستی به کاری برسد که نمی تواند با زور و خشونت در کوتاه مدت انجام دهد 
 1	he	_	PRON	_	_	3	nsubj	_	_
 2	may	_	AUX	_	_	3	aux	_	_
 3	accomplish	_	VERB	_	_	0	root	_	_
@@ -370,6 +483,7 @@
 23	.	_	PUNCT	_	_	3	punct	_	_
 
 # it has been said that only a hierarchical society with a leisure class at the top can produce works of art .
+فته شده است که فقط یک جامعه سلسله مراتبی با یک کلاس اوقات فراغت در بالا می تواند آثار هنری تولید کند. 
 1	it	_	PRON	_	_	4	nsubj	_	_
 2	has	_	AUX	_	_	4	aux	_	_
 3	been	_	AUX	_	_	4	aux	_	_
@@ -394,6 +508,7 @@
 23	.	_	PUNCT	_	_	4	punct	_	_
 
 # his ingenuous explanation that he would not have burned the church if he had not thought the bishop was in it .
+توضیح نبوغ آمیز او مبنی بر اینکه اگر فکر نمی کرد اسقف در آن است ، او کلیسا را نمی سوزاند. 
 1	his	_	PRON	_	_	3	nmod:poss	_	_
 2	ingenuous	_	ADJ	_	_	3	amod	_	_
 3	explanation	_	NOUN	_	_	0	root	_	_
